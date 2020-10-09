@@ -1,6 +1,6 @@
 #!name=TalkingData
 #!desc=enable talkingdata
-#!system=ios
+#!system=mac
 
 [Script]
 http-request https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bahamut.js
