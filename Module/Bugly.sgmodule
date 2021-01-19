@@ -1,0 +1,7 @@
+
+#!name=TalkingData
+#!desc=enable talkingdata
+#!system=mac
+
+[Rule]
+DOMAIN-SUFFIX, bugly.qq.com, DIRECT
