@@ -4,4 +4,4 @@
 #!system=mac
 
 [Rule]
-DOMAIN-SUFFIX, bugly.qq.com, DIRECT
+DOMAIN, bugly.qq.com, DIRECT
