@@ -1,6 +1,5 @@
-
-#!name=TalkingData
-#!desc=enable talkingdata
+#!name=Bugly
+#!desc=enable bugly
 #!system=mac
 
 [Rule]
