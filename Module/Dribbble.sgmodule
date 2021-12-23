@@ -1,0 +1,6 @@
+#!name=Dribbble
+#!desc=enable dribbble
+#!system=mac
+
+[Rule]
+DOMAIN-KEYWORD, dribbble, Proxy
