@@ -1,0 +1,5 @@
+#!name=StackOverflow
+#!desc=enable StackOverflow 节点选择
+
+[Rule]
+DOMAIN-KEYWORD, stackoverflow, 🔰 节点选择
