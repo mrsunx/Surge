@@ -1,3 +1,6 @@
+#!name=MITM
+#!desc=重写MITM证书
+
 [MITM]
 skip-server-cert-verify = true
 tcp-connection = false
