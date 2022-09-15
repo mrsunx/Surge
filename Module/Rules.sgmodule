@@ -1,0 +1,5 @@
+#!name=Rules
+#!desc=自定义分流
+
+[Rule]
+DOMAIN-KEYWORD, dribbble, 🔰 节点选择
