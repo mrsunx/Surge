@@ -1,5 +1,0 @@
-#!name=Dribbble
-#!desc=enable dribbble
-
-[Rule]
-DOMAIN-KEYWORD, dribbble, 🔰 节点选择

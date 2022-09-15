@@ -1,5 +1,0 @@
-#!name=Github
-#!desc=enable Github 节点选择
-
-[Rule]
-DOMAIN-KEYWORD, github, 🔰 节点选择

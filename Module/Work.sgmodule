@@ -1,6 +1,0 @@
-#!name=TalkingData
-#!desc=enable talkingdata
-#!system=mac
-
-[Rule]
-DOMAIN-SUFFIX, music.126.net, Proxy

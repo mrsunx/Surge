@@ -1,7 +1,0 @@
-#!name=Work
-#!desc=Work kill wall
-#!system=mac
-
-[Rule]
-DOMAIN-KEYWORD,126,🔰 节点选择
-DOMAIN-KEYWORD,163,🔰 节点选择

@@ -1,0 +1,8 @@
+# NAME: Proxy
+# AUTHOR: mrxuan
+# DESCRIPTION: 节点规则
+
+DOMAIN-KEYWORD, dribbble
+DOMAIN-KEYWORD, figma
+DOMAIN-KEYWORD, github
+DOMAIN-KEYWORD, stackoverflow

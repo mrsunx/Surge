@@ -1,6 +1,0 @@
-#!name=Figma
-#!desc=enable Figma 节点选择
-#!system=mac
-
-[Rule]
-DOMAIN-KEYWORD, figma, 🔰 节点选择
