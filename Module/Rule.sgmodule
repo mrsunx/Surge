@@ -15,3 +15,7 @@ RULE-SET,https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/
 
 # Proxy
 RULE-SET,https://raw.githubusercontent.com/mrsunx/Surge/master/List/Proxy.list,🔰 节点选择
+
+
+[MITM]
+hostname = %APPEND%, *.binfenyingyu.com
