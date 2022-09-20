@@ -7,5 +7,9 @@
 # Bear
 Bear = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
 
+# 彩云小译
+CaiYun = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cyxy.js
+
+
 [MITM]
-hostname = %APPEND% buy.itunes.apple.com
+hostname = %APPEND%, buy.itunes.apple.com, api.interpreter.caiyunai.com
