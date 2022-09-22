@@ -8,7 +8,7 @@
 Bear = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
 
 # 彩云小译
-CaiYun = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user,script-path=https://raw.githubusercontent.com/Hvftk/Q-X/master/Personal_JS_ID/cyxy.js
+CaiYun = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/cyxy.js
 
 
 [MITM]
