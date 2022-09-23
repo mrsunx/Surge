@@ -1,4 +1,5 @@
 var obj = JSON.parse($response.body);
+console.log('开始解析', JSON.stringify(obj))
 obj = Object.assign(obj,
 {
   "point": {
@@ -145,5 +146,5 @@ obj = Object.assign(obj,
     "vip_type": "s"
   }
 })
-
+console.log('解析完毕', JSON.stringify(obj))
 $done({body: JSON.stringify(obj)});
