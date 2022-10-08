@@ -132,7 +132,7 @@ obj = Object.assign(obj, {
     token:
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJ1c2VyX2lkIjoiNjMyOTMzZmMyZjU0YmEwMDBmNTNhZmUxIiwic3ZpcF9leHBpcmVkX2F0IjowLCJ2aXBfZXhwaXJlZF9hdCI6MH0.tEVHjYDDqTjONkSVKvKpMWMgvGP8BCACHbEcAmIlGeM",
     has_doc_permission: false,
-    point: 270,
+    point: 270000,
     translation_count: 0,
     reading_page_count: 1,
     reading_time_this_week: 0,
