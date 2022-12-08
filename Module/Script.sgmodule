@@ -10,6 +10,8 @@ Bear = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/buy\.itu
 # 彩云小译
 CaiYun = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/cyxy.js
 
+# Notability
+Notability = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/notability\.com\/subscriptions,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/notability.js
 
 [MITM]
 hostname = %APPEND%, buy.itunes.apple.com, api.interpreter.caiyunai.com
