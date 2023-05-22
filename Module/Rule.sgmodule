@@ -18,4 +18,4 @@ RULE-SET,https://raw.githubusercontent.com/mrsunx/Surge/master/List/Proxy.list,�
 DOMAIN-SUFFIX, openai.com, 🔰 节点选择
 
 [MITM]
-hostname = %APPEND%, *.binfenyingyu.com
+hostname = %APPEND%, *.binfenyingyu.com, *.vipabcyun.com
