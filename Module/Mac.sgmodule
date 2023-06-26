@@ -1,0 +1,8 @@
+#!name=enable mac
+#!desc=允许mac访问
+#!system=mac
+
+[Rule]
+DOMAIN, bugly.qq.com, DIRECT
+DOMAIN-SUFFIX, talkingdata.com, DIRECT
+DOMAIN-KEYWORD, crashlytics, DIRECT
