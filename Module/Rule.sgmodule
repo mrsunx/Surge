@@ -17,6 +17,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/mrsunx/Surge/master/List/Proxy.list,🔰 节点选择
 DOMAIN-SUFFIX, openai.com, 🔰 节点选择
 DOMAIN-SUFFIX, discord.com, 🔰 节点选择
+DOMAIN-SUFFIX, discord.gg, 🔰 节点选择
 
 [MITM]
 hostname = %APPEND%, *.binfenyingyu.com, *.vipabcyun.com
