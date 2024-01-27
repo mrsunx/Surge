@@ -1,0 +1,5 @@
+#!name=AmySecure扩展
+#!desc=自用扩展
+
+[Rule]
+RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list, 📡 Global++
