@@ -1,17 +1,10 @@
 #!name=脚本
-#!desc=解锁、签到等
-
-# https://gitee.com/lxk0301/jd_scripts/raw/master/Surge/lxk0301_Task.sgmodule.sgmodule
+#!desc=自定义脚本
 
 [Script]
-# Bear
-# Bear = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
-
-# 彩云小译
-CaiYun = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/cyxy.js
-
-# Notability
-Notability = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/notability\.com\/subscriptions,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/notability.js
+# 陈抟八字
+ChenTuan = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/baZi,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/ctbz.js,script-update-interval=0
+ChenTuanUser = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/user\/userInfo,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/ctbz_user.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND%, buy.itunes.apple.com, api.interpreter.caiyunai.com, *notability.com
+hostname = %APPEND%, api.chentuanbazi.cn
