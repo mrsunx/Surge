@@ -6,5 +6,8 @@
 ChenTuan = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/baZi,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/ctbz.js,script-update-interval=0
 ChenTuanUser = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/user\/userInfo,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/ctbz_user.js,script-update-interval=0
 
+# 吉真
+JiZhenUser = type=http-response,pattern=^https?:\/\/calendarsrv\.iwzwh\.com\/api\/v1.1\/user\/getvipinfo,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/jizhen.js,script-update-interval=0
+
 [MITM]
-hostname = %APPEND%, api.chentuanbazi.cn
+hostname = %APPEND%, api.chentuanbazi.cn, calendarsrv.iwzwh.com
