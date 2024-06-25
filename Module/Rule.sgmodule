@@ -20,4 +20,4 @@ DOMAIN-SUFFIX, discord.com, 🔰 节点选择
 DOMAIN-SUFFIX, discord.gg, 🔰 节点选择
 
 [MITM]
-hostname = %APPEND%, *.binfenyingyu.com, *.vipabcyun.com
+hostname = %APPEND% *.binfenyingyu.com, *.vipabcyun.com
