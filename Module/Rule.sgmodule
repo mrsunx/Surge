@@ -14,10 +14,10 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdGuardSDNSFilter/Direct/Direct.list,DIRECT
 
 # Proxy
-RULE-SET,https://raw.githubusercontent.com/mrsunx/Surge/master/List/Proxy.list,🔰 节点选择
-DOMAIN-SUFFIX, openai.com, 🔰 节点选择
-DOMAIN-SUFFIX, discord.com, 🔰 节点选择
-DOMAIN-SUFFIX, discord.gg, 🔰 节点选择
+RULE-SET,https://raw.githubusercontent.com/mrsunx/Surge/master/List/Proxy.list, AmyTelecom
+DOMAIN-SUFFIX, openai.com, AmyTelecom
+DOMAIN-SUFFIX, discord.com, AmyTelecom
+DOMAIN-SUFFIX, discord.gg, AmyTelecom
 
 [MITM]
 hostname = %APPEND% *.binfenyingyu.com, *.vipabcyun.com
