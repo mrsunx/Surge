@@ -10,4 +10,4 @@ ChenTuanUser = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/use
 JiZhenUser = type=http-response,pattern=^https?:\/\/calendarsrv\.iwzwh\.com\/api\/v1.1\/user\/getvipinfo,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/jizhen.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND%, api.chentuanbazi.cn, calendarsrv.iwzwh.com
+hostname = %APPEND% api.chentuanbazi.cn, calendarsrv.iwzwh.com
