@@ -9,5 +9,8 @@ ChenTuanUser = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/use
 # 吉真
 JiZhenUser = type=http-response,pattern=^https?:\/\/calendarsrv\.iwzwh\.com\/api\/v1.1\/user\/getvipinfo,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/jizhen.js,script-update-interval=0
 
+# 周易起名
+ZhouYiQiMing = type=http-response,pattern=^http[s]?:\/\/www.zhouyilive.com\/qm-api\/nm_user.php,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zhouyilive.js
+
 [MITM]
-hostname = %APPEND% api.chentuanbazi.cn, calendarsrv.iwzwh.com
+hostname = %APPEND% api.chentuanbazi.cn, calendarsrv.iwzwh.com, www.zhouyilive.com
