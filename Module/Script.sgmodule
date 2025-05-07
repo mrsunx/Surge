@@ -6,6 +6,9 @@
 ChenTuan = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/baZi,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/ctbz.js,script-update-interval=0
 ChenTuanUser = type=http-response,pattern=^https?:\/\/api\.chentuanbazi\.cn\/user\/userInfo,requires-body=1,max-size=0,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/ctbz_user.js,script-update-interval=0
 
+# 问真
+WenZhen = type=http-response,pattern=^https?:\/\/bzpp\d\.iwzbz\.com\/api\/[^\/]+\/(user\/getvipinfo(_nv1)?|User\/getWXPW)(\?.*)?$,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/wenzhen.js,script-update-interval=0
+
 # 吉真
 JiZhenUser = type=http-response,pattern=^https?:\/\/calendarsrv\.iwzwh\.com\/api\/v1.1\/user\/getvipinfo,requires-body=1,max-size=-1,debug=1,script-path=https://raw.githubusercontent.com/mrsunx/Surge/master/Script/jizhen.js,script-update-interval=0
 
