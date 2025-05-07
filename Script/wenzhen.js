@@ -12,7 +12,7 @@
 ^https?:\/\/bzpp\d\.iwzbz\.com\/api\/[^\/]+\/(user\/getvipinfo(_nv1)?|User\/getWXPW)(\?.*)?$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wenzhenpaipan.js
 
 [mitm]
-hostname = bzpp2.iwzbz.com
+hostname = bzpp3.iwzbz.com
 
 *************************************/
 
